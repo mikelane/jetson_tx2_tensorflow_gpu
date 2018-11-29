@@ -32,6 +32,7 @@ RUN pip3 install --no-cache-dir --upgrade \
   pydot \
   pandas \
   Pillow \
+  pyzmq==17.0.0 \  # SEE: https://shiroku.net/robotics/install-jupyter-notebook-on-jetson-tx2/
   jupyter \
   jupyterlab
 RUN export CC=h5cc
